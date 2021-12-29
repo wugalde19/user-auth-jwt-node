@@ -5,6 +5,7 @@ Node JS microservice to handle Basic User Authentication using JWT and PostgreSQ
 
 ### v1
 - [X] Set up PostgreSQL DB
+- [X] Add DB management tool (https://www.adminer.org/)
 - [ ] Create `users` table
 - [ ] Set up basic Node server
 - [ ] Connect Node server with DB
@@ -19,3 +20,6 @@ Node JS microservice to handle Basic User Authentication using JWT and PostgreSQ
 - [ ] Enable Google login
 - [ ] Enable Facebook login
 
+## Resources
+### Adminer Designs
+https://github.com/vrana/adminer/tree/master/designs
