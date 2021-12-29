@@ -6,6 +6,7 @@ Node JS microservice to handle Basic User Authentication using JWT and PostgreSQ
 ### v1
 - [X] Set up PostgreSQL DB
 - [X] Add DB management tool (https://www.adminer.org/)
+- [X] Load enviroment variables from .env files
 - [ ] Create `users` table
 - [ ] Set up basic Node server
 - [ ] Connect Node server with DB

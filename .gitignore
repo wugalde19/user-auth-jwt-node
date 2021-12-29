@@ -105,3 +105,6 @@ pgdata/
 
 # TernJS port file
 .tern-port
+
+# ENV files
+config/*.env

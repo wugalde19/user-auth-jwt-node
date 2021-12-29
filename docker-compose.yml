@@ -3,10 +3,8 @@ services:
   db:
     image: postgres
     restart: always
-    environment:
-      - POSTGRES_PASSWORD=password
-      - POSTGRES_USER=postgres
-      - POSTGRES_DB=user-auth
+    env_file:
+      - ./config/postgres.env
     volumes:
       - ./pgdata:/var/lib/postgresql/data
     ports:
@@ -15,9 +13,8 @@ services:
   adminer:
     image: adminer
     restart: always
-    environment:
-      - ADMINER_DEFAULT_SERVER=db
-      - ADMINER_DESIGN=nette
+    env_file:
+      - ./config/adminer.env
     depends_on:
       - db
     ports:
