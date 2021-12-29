@@ -108,3 +108,6 @@ pgdata/
 
 # ENV files
 config/*.env
+
+# NVM dotfiles
+.nvmrc
