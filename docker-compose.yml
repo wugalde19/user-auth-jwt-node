@@ -7,6 +7,7 @@ services:
       - ./config/postgres.env
     volumes:
       - ./pgdata:/var/lib/postgresql/data
+      - ./sql/dump.sql:/docker-entrypoint-initdb.d/1.sql:ro
     ports:
       - '5432:5432'
 
